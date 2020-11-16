@@ -1,0 +1,42 @@
+body{
+    background-image: url("1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 50px;
+}
+	
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 45px;
+	color: #FFF;
+    text-decoration: none;	
+    margin-top: 15%;
+    margin-left:40%;
+}
+
+.blue
+{
+	background-color: #ca1a1a;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}

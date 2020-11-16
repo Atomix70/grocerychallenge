@@ -1,0 +1,94 @@
+{
+    "grocery":
+    [
+        {
+            "serialnumber":"1",
+            "name": "Atta",
+            "quantity":"2",
+            "unit":"kg",
+            "department":"Dry-and-Raw",
+            "notes":"Ashirvad"
+        },
+        {
+            "serialnumber":"2",
+            "name": "Chicken Egg",
+            "quantity":"10",
+            "unit":"no.",
+            "department":"Dairy",
+            "notes":""
+        },
+        {
+            "serialnumber":"3",
+            "name": "Diet Coke",
+            "quantity":"5",
+            "unit":"No.",
+            "department":"Beverages",
+            "notes":"If diet is out of stock buy zero coke"
+        },
+        {
+            "serialnumber":"4",
+            "name": "lemons",
+            "quantity":"20",
+            "unit":"no.",
+            "department":"Fruits-and-Vegetables",
+            "notes":""
+        },
+        {
+            "serialnumber":"5",
+            "name": "Chicken",
+            "quantity":"5",
+            "unit":"kg",
+            "department":"Meat",
+            "notes":""
+        },
+        {
+            "serialnumber":"6",
+            "name": "Rice",
+            "quantity":"20",
+            "unit":"kg",
+            "department":"Dry-and-Raw",
+            "notes":""
+        },
+        {
+            "serialnumber":"7",
+            "name": "ice-cream",
+            "quantity":"2",
+            "unit":"litre",
+            "department":"Frozen-Food",
+            "notes":"Preferably Amul"
+        },
+        {
+            "serialnumber":"8",
+            "name": "Oil",
+            "quantity":"1",
+            "unit":"no.",
+            "department":"Personal-Care",
+            "notes":"Dhathri"
+        },
+        {
+            "serialnumber":"9",
+            "name": "wet-wipes",
+            "quantity":"2",
+            "unit":"no.",
+            "department":"Personal-Care",
+            "notes":""
+        },
+        {
+            "serialnumber":"10",
+            "name": "Bread",
+            "quantity":"1",
+            "unit":"no.",
+            "department":"Bakery-and-Bread",
+            "notes":""
+        },
+        {
+            "serialnumber":"11",
+            "name": "Pickle",
+            "quantity":"1",
+            "unit":"no.",
+            "department":"Canned-food",
+            "notes":"Double Horse cut mango"
+        }
+    ]
+
+}

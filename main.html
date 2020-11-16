@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+  <!--buttons-->
+  
+  <table class="table2">
+    <tr>
+      <th><button class="b" onclick="showfull()" value="Beverages"><img src="allgrocery.png" alt=""></button></th>
+      <th><button class="b" onclick="cat(this.value)" value="Beverages"><img src="beverages.jpg" alt=""></button></th>
+      <th><button class="b" onclick="cat(this.value)" value="Dairy"><img src="dairy-products-color-icon-yogurt-bottle-and-glass-of-milk-eggs-and-cheese-grocery-store-items-vector-isolated-illustration-2AAY4W6.jpg" alt=""></button></th>
+      <th><button class="b" onclick="cat(this.value)" value="Bakery-and-Bread"><img src="pngtree-vector-bread-icon-png-image_537876.jpg" alt=""></button></th>
+      <th><button class="b" onclick="cat(this.value)" value="Canned-food"-><img src="canned-food-pngrepo-com.png" alt="" class="small"></button></th>
+      <th><button class="b" onclick="cat(this.value)" value="Meat"><img src="meat.png" alt=""></button></th>
+      <th><button class="b" onclick="cat(this.value)" value="Personal-Care"><img src="87441293-illustration-of-cleaning-symbol-on-hygiene-icon-.jpg" alt=""></button></th>
+      <th><button class="b" onclick="cat(this.value)" value="Frozen-Food"><img src="2372158.png" alt=""></button></th>
+      <th><button class="b" onclick="cat(this.value)" value="Fruits-and-Vegetables"><img src="kissclipart-fruits-and-vegetables-icon-clipart-vegetable-fruit-0775289d4d06dcc7.png" alt=""></button></th>
+      <th><button class="b" onclick="cat(this.value)" value="Dry-and-Raw"><img src="42968147-cereals-icon.jpg" alt=""></button></th>
+    </tr>
+    <tr>
+      <th><b>ALL<b></th>
+      <th><b>Beverages<b></th>
+      <th><b>Dairy</b></th>
+      <th><b>Bakery and Bread</b></th>
+      <th><b>Canned Food</b></th>
+      <th><b>Meat</b></th>
+      <th><b>Personal Care</b></th>
+      <th><b>Frozen Food</b></th>
+      <th><b>Fruits and vegetables</b></th>
+      <th><b>Dry and Raw</b></th>
+    </tr>
+  </table>
+  
+
+
+
+
+  <!-- sidenavabar-->
+
+  <!-- <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+   -->
+  <!-- Use any element to open the sidenav -->
+  <!-- <span onclick="openNav()">open</span> -->
+  
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+    ...
+  </div>
+  <!--sidenavbar-->
+    <!-- <button onclick="ajax()">hello</button> -->
+    <table class="table col-8" id="table1">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Unit</th>
+          <th scope="col">Department</th>
+          <th scope="col">Notes</th>
+        </tr>
+      </thead>
+      <tbody id="groclist">
+
+
+      </tbody>
+      </table>
+
+    <!-- <button onclick="add()">add</button> -->
+    <div class="but">
+    <button id="myBtn" >ADD</button> 
+    <button id="myBtn" onclick="ajax()">Show/Ref</button> 
+  </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <form  method="GET">
+            <label for="">Name</label>
+            <input type="text" id="name">
+            <label for="">Quantity</label>
+            <input type="text" id="quant">
+            <label for="">Unit</label>
+            <input type="text" id="unit">
+            <label for="">department</label>
+            <select name="" id="dep">
+                <option value="Personal-Care">Personal Care</option>
+                <option value="Canned-food">Canned Food</option>
+                <option value="Frozen-Food">Frozen Food</option>
+                <option value="Beverages">Beverages</option>
+                <option value="Fruits-and-Vegetables">Fruits and Vegetables</option>
+                <option value="Bakery-and-Bread">Bakery and Bread</option>
+                <option value="Meat">Fresh Meat</option>
+                <option value="Dry-and-Raw">Dry and Raw</option>
+                <!-- <option value="food">food</option> -->
+            </select>
+            <label for="">Notes</label>
+            <input type="text" id="note">
+            <button type="button" id="addbut"onclick="add()">ADD</button>
+        </form>
+      </div>
+    
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
